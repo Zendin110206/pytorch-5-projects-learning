@@ -1,0 +1,33 @@
+# Python virtual environment (anyone can recreate it with `uv sync`)
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Datasets (downloaded from Kaggle, too big for Git)
+data/*
+!data/README.md
+
+# Trained model weights
+models/
+*.pt
+*.pth
+
+# Secrets
+.env
+kaggle.json
+
+# Local tool settings
+.claude/
+.codex/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store   
