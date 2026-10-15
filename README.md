@@ -37,8 +37,8 @@ A few rules I'm keeping for myself:
 | #   | Project                | What it's about                            | Status      |
 | --- | ---------------------- | ------------------------------------------ | ----------- |
 | 01  | Tabular classification | Rice type, from a CSV file                 | Done        |
-| 02  | Image classification   | Animal faces with a CNN built from scratch | Up next     |
-| 03  | Pretrained image model | Bean leaf lesions with transfer learning   | Not started |
+| 02  | Image classification   | Animal faces with a CNN built from scratch | Done        |
+| 03  | Pretrained image model | Bean leaf lesions with transfer learning   | Up next     |
 | 04  | Audio classification   | Quran reciters from audio clips            | Not started |
 | 05  | Text classification    | Sarcasm detection in headlines with BERT   | Not started |
 
