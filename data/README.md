@@ -18,11 +18,23 @@ uv run kaggle datasets download mssmartypants/rice-type-classification -p data/r
 
 Source: [Rice type classification](https://www.kaggle.com/datasets/mssmartypants/rice-type-classification) by mssmartypants
 
+### 02 · Animal faces
+
+```bash
+uv run kaggle datasets download andrewmvd/animal-faces -p data/animal-faces --unzip
+```
+
+Source: [Animal Faces](https://www.kaggle.com/datasets/andrewmvd/animal-faces) by andrewmvd
+
 ## Expected layout
 
 ```text
 data/
 ├── README.md
+├── animal-faces/
+│   └── afhq/
+│       ├── train/   (cat, dog, wild)
+│       └── val/     (cat, dog, wild)
 └── rice-type-classification/
     └── riceClassification.csv
 ```
