@@ -26,6 +26,14 @@ uv run kaggle datasets download andrewmvd/animal-faces -p data/animal-faces --un
 
 Source: [Animal Faces](https://www.kaggle.com/datasets/andrewmvd/animal-faces) by andrewmvd
 
+### 03 · Bean leaf lesions
+
+```bash
+uv run kaggle datasets download marquis03/bean-leaf-lesions-classification -p data/bean-leaf-lesions-classification --unzip
+```
+
+Source: [Bean Leaf Lesions Classification](https://www.kaggle.com/datasets/marquis03/bean-leaf-lesions-classification) by marquis03
+
 ## Expected layout
 
 ```text
@@ -35,6 +43,10 @@ data/
 │   └── afhq/
 │       ├── train/   (cat, dog, wild)
 │       └── val/     (cat, dog, wild)
+├── bean-leaf-lesions-classification/
+│   ├── train.csv, val.csv
+│   ├── train/   (angular_leaf_spot, bean_rust, healthy)
+│   └── val/     (angular_leaf_spot, bean_rust, healthy)
 └── rice-type-classification/
     └── riceClassification.csv
 ```
