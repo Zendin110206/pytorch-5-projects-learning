@@ -34,6 +34,14 @@ uv run kaggle datasets download marquis03/bean-leaf-lesions-classification -p da
 
 Source: [Bean Leaf Lesions Classification](https://www.kaggle.com/datasets/marquis03/bean-leaf-lesions-classification) by marquis03
 
+### 04 · Quran recitations (audio)
+
+```bash
+uv run kaggle datasets download mohammedalrajeh/quran-recitations-for-audio-classification -p data/quran-recitations-for-audio-classification --unzip
+```
+
+Source: [Quran recitations for audio classification](https://www.kaggle.com/datasets/mohammedalrajeh/quran-recitations-for-audio-classification) by mohammedalrajeh (about 2.3 GB)
+
 ## Expected layout
 
 ```text
@@ -47,6 +55,9 @@ data/
 │   ├── train.csv, val.csv
 │   ├── train/   (angular_leaf_spot, bean_rust, healthy)
 │   └── val/     (angular_leaf_spot, bean_rust, healthy)
+├── quran-recitations-for-audio-classification/
+│   ├── files_paths.csv
+│   └── Dataset/Dataset/   (12 reciter folders with .wav files)
 └── rice-type-classification/
     └── riceClassification.csv
 ```
