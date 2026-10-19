@@ -39,8 +39,8 @@ A few rules I'm keeping for myself:
 | 01  | Tabular classification | Rice type, from a CSV file                 | Done        |
 | 02  | Image classification   | Animal faces with a CNN built from scratch | Done        |
 | 03  | Pretrained image model | Bean leaf lesions with transfer learning   | Done        |
-| 04  | Audio classification   | Quran reciters from audio clips            | Up next     |
-| 05  | Text classification    | Sarcasm detection in headlines with BERT   | Not started |
+| 04  | Audio classification   | Quran reciters from audio clips            | Done        |
+| 05  | Text classification    | Sarcasm detection in headlines with BERT   | Up next     |
 
 ## My setup
 
