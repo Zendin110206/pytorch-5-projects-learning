@@ -40,7 +40,7 @@ A few rules I'm keeping for myself:
 | 02  | Image classification   | Animal faces with a CNN built from scratch | Done        |
 | 03  | Pretrained image model | Bean leaf lesions with transfer learning   | Done        |
 | 04  | Audio classification   | Quran reciters from audio clips            | Done        |
-| 05  | Text classification    | Sarcasm detection in headlines with BERT   | Up next     |
+| 05  | Text classification    | Sarcasm detection in headlines with BERT   | Done        |
 
 ## My setup
 
@@ -56,7 +56,7 @@ cd pytorch-5-projects-learning
 uv sync
 ```
 
-The datasets come from Kaggle and are not stored in this repo. I'll add download steps as I start each project.
+The datasets come from Kaggle and are not stored in this repo. The download steps for every project are in [data/README.md](data/README.md).
 
 ## Credits
 
