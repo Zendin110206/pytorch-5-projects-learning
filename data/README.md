@@ -42,6 +42,16 @@ uv run kaggle datasets download mohammedalrajeh/quran-recitations-for-audio-clas
 
 Source: [Quran recitations for audio classification](https://www.kaggle.com/datasets/mohammedalrajeh/quran-recitations-for-audio-classification) by mohammedalrajeh (about 2.3 GB)
 
+### 05 · News headlines for sarcasm detection
+
+```bash
+uv run kaggle datasets download rmisra/news-headlines-dataset-for-sarcasm-detection -p data/news-headlines-dataset-for-sarcasm-detection --unzip
+```
+
+Source: [News Headlines Dataset For Sarcasm Detection](https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection) by rmisra
+
+The BERT model itself (`bert-base-uncased`, about 440 MB) is downloaded from Hugging Face the first time the notebook runs and is cached outside this repo.
+
 ## Expected layout
 
 ```text
@@ -55,6 +65,8 @@ data/
 │   ├── train.csv, val.csv
 │   ├── train/   (angular_leaf_spot, bean_rust, healthy)
 │   └── val/     (angular_leaf_spot, bean_rust, healthy)
+├── news-headlines-dataset-for-sarcasm-detection/
+│   └── Sarcasm_Headlines_Dataset.json, Sarcasm_Headlines_Dataset_v2.json
 ├── quran-recitations-for-audio-classification/
 │   ├── files_paths.csv
 │   └── Dataset/Dataset/   (12 reciter folders with .wav files)
